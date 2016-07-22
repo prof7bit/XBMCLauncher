@@ -1,9 +1,11 @@
-XBMCLauncher
-============
+XBMCLauncher (Kodi Launcher)
+============================
 
-A helper app to allow setting XBMC as your Launcher in Android
-without modifying the XBMC app.
+This is a fork of the original app from https://github.com/blunden/XBMCLauncher
 
-Based on a use-case that came up in the XBMC.org forums.
+A helper app to allow setting Kodi (or one of its forks) as your Launcher 
+in Android without modifying the XBMC app.
 
-[Play Store](https://play.google.com/store/apps/details?id=se.blunden.xbmclauncher)
+Additionally it has an option to fix permissions on /sys/class/display/mode
+on some broken (but rooted!) Amlogic ROMs (for example MXQ Pro 4k) to allow 
+dynamic refresh rate switching by Kodi.
