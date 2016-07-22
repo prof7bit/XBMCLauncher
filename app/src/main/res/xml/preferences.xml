@@ -1,42 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
- 
+
     <PreferenceCategory
-        android:title="@string/settings_category_basic_settings"
-        android:key="basic_settings_category">
-         
+        android:key="basic_settings_category"
+        android:title="@string/settings_category_basic_settings">
+
         <ListPreference
+            android:defaultValue="@string/xbmc_package_default"
+            android:entries="@array/xbmcVariantNames"
+            android:entryValues="@array/xbmcPackageNames"
             android:key="xbmc_variant"
-            android:title="@string/settings_xbmc_variant_title"
             android:summary="@string/settings_xbmc_variant_summary"
-            android:defaultValue="@string/xbmc_activity_default"
-            android:entries="@array/xbmcActivityNames"
-            android:entryValues="@array/xbmcActivityStrings" />   
-             
+            android:title="@string/settings_xbmc_variant_title" />
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="fix_permissions"
+            android:summary="@string/settings_fix_permissions_summary"
+            android:title="@string/settings_fix_permissions_title" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="@string/settings_category_troubleshooting"
-        android:key="troubleshooting_category">
-        
+        android:key="troubleshooting_category"
+        android:title="@string/settings_category_troubleshooting">
+
         <Preference
-        	android:key="app_details"
-        	android:title="@string/settings_app_details_title"
-        	android:summary="@string/settings_app_details_summary">
-        	<intent
-            	android:action="android.settings.APPLICATION_DETAILS_SETTINGS"
-            	android:targetPackage="com.android.settings"
-            	android:data="package:se.blunden.xbmclauncher" />
-    	</Preference>
-    	
+            android:key="clear_defaults"
+            android:summary="@string/settings_clear_defaults_summary"
+            android:title="@string/settings_clear_defaults_title">
+        </Preference>
+
         <Preference
-        	android:key="android_settings"
-        	android:title="@string/settings_android_settings_title"
-        	android:summary="@string/settings_android_settings_summary">
-        	<intent
-            	android:action="android.settings.SETTINGS"
-            	android:targetPackage="com.android.settings" />
-    	</Preference>
+            android:key="open_launcher_settings"
+            android:summary="@string/settings_open_launcher_settings_summary"
+            android:title="@string/settings_open_launcher_settings_title">
+        </Preference>
+
+        <Preference
+            android:key="android_settings"
+            android:summary="@string/settings_android_settings_summary"
+            android:title="@string/settings_android_settings_title">
+            <intent
+                android:action="android.settings.SETTINGS"
+                android:targetPackage="com.android.settings" />
+        </Preference>
 
     </PreferenceCategory>
 

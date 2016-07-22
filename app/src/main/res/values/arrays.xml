@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     
-    <string-array name="xbmcActivityNames">
-        <item name="xbmc_activity_name_default">Kodi (Official)</item>
-        <item name="xbmc_activity_name_xbmc">XBMC (Official)</item>
-        <item name="xbmc_activity_name_minix">MINIX XBMC</item>
-        <item name="xbmc_activity_name_beyond">Beyond XBMC</item>
-        <item name="xbmc_activity_name_plex">Plex</item>
-        <item name="xbmc_activity_name_ouya">OUYA XBMC</item>
-        <item name="xbmc_activity_name_spmc">SPMC</item>
-        <item name="xbmc_activity_name_spmc_16">SPMC (v16+)</item>
-        <item name="xbmc_activity_name_wasser">Wasser XBMC</item>
-        <item name="xbmc_activity_name_tvmc_new">TVMC</item>
-        <item name="xbmc_activity_name_tvmc">TVMC (Old)</item>
-        <item name="xbmc_activity_name_vidon_kodi">VidOn Kodi</item>
-        <item name="xbmc_activity_name_vidon_new">VidOn XBMC</item>
-        <item name="xbmc_activity_name_vidon">VidOn XBMC (Old)</item>
-        <item name="xbmc_activity_name_matricom">Matricom MediaCenter</item>
+    <string-array name="xbmcVariantNames">
+        <item name="xbmc_variant_name_default">Kodi (Official)</item>
+        <item name="xbmc_variant_name_xbmc">XBMC (Official)</item>
+        <item name="xbmc_variant_name_minix">MINIX XBMC</item>
+        <item name="xbmc_variant_name_beyond">Beyond XBMC</item>
+        <item name="xbmc_variant_name_plex">Plex</item>
+        <item name="xbmc_variant_name_ouya">OUYA XBMC</item>
+        <item name="xbmc_variant_name_spmc">SPMC</item>
+        <item name="xbmc_variant_name_spmc_16">SPMC (v16+)</item>
+        <item name="xbmc_variant_name_wasser">Wasser XBMC</item>
+        <item name="xbmc_variant_name_tvmc_new">TVMC</item>
+        <item name="xbmc_variant_name_tvmc">TVMC (Old)</item>
+        <item name="xbmc_variant_name_vidon_kodi">VidOn Kodi</item>
+        <item name="xbmc_variant_name_vidon_new">VidOn XBMC</item>
+        <item name="xbmc_variant_name_vidon">VidOn XBMC (Old)</item>
+        <item name="xbmc_variant_name_matricom">Matricom MediaCenter</item>
     </string-array>
     
-    <string-array name="xbmcActivityStrings">
-        <item name="xbmc_activity_string_default">org.xbmc.kodi/org.xbmc.kodi.Splash</item>
-        <item name="xbmc_activity_string_xbmc">org.xbmc.xbmc/org.xbmc.xbmc.Splash</item>
-        <item name="xbmc_activity_string_minix">hk.minix.xbmc/hk.minix.xbmc.Splash</item>
-        <item name="xbmc_activity_string_beyond">com.flumpster.xbmc/com.flumpster.xbmc.Splash</item>
-        <item name="xbmc_activity_string_plex">com.plexapp.android/com.plexapp.plex.activities.MyPlexActivity</item>
-        <item name="xbmc_activity_string_ouya">tv.ouya.xbmc/tv.ouya.xbmc.Splash</item>
-        <item name="xbmc_activity_string_spmc">com.semperpax.spmc/com.semperpax.spmc.Splash</item>
-        <item name="xbmc_activity_string_spmc_16">com.semperpax.spmc16/com.semperpax.spmc16.Splash</item>
-        <item name="xbmc_activity_string_wasser">org.wasser.xbmc/org.wasser.xbmc.Splash</item>
-        <item name="xbmc_activity_string_tvmc_new">ag.tvaddons.tvmc/ag.tvaddons.tvmc.Splash</item>
-        <item name="xbmc_activity_string_tvmc">ag.tvaddons.xbmc/ag.tvaddons.xbmc.Splash</item>
-        <item name="xbmc_activity_string_vidon_kodi">org.vidonme.xbmc/org.vidonme.xbmc.Splash</item>
-        <item name="xbmc_activity_string_vidon_new">org.vidonme.xbmc13/org.vidonme.xbmc13.Splash</item>
-        <item name="xbmc_activity_string_vidon">org.vidonme.vidonme/org.vidonme.vidonme.Splash</item>
-        <item name="xbmc_activity_string_matricom">net.matricom.mediacenter/net.matricom.mediacenter.Splash</item>
+    <string-array name="xbmcPackageNames">
+        <item name="xbmc_package_name_default">org.xbmc.kodi</item>
+        <item name="xbmc_package_name_xbmc">org.xbmc.xbmc</item>
+        <item name="xbmc_package_name_minix">hk.minix.xbmc</item>
+        <item name="xbmc_package_name_beyond">com.flumpster.xbmc</item>
+        <item name="xbmc_package_name_plex">com.plexapp.android</item>
+        <item name="xbmc_package_name_ouya">tv.ouya.xbmc</item>
+        <item name="xbmc_package_name_spmc">com.semperpax.spmc</item>
+        <item name="xbmc_package_name_spmc_16">com.semperpax.spmc16</item>
+        <item name="xbmc_package_name_wasser">org.wasser.xbmc</item>
+        <item name="xbmc_package_name_tvmc_new">ag.tvaddons.tvmc</item>
+        <item name="xbmc_package_name_tvmc">ag.tvaddons.xbmc</item>
+        <item name="xbmc_package_name_vidon_kodi">org.vidonme.xbmc</item>
+        <item name="xbmc_package_name_vidon_new">org.vidonme.xbmc13</item>
+        <item name="xbmc_package_name_vidon">org.vidonme.vidonme</item>
+        <item name="xbmc_package_name_matricom">net.matricom.mediacenter</item>
     </string-array>
     
 </resources>

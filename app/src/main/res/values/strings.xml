@@ -1,20 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">XBMC Launcher</string>
-    <string name="app_label_settings">XBMC Launcher Settings</string>
-    
+    <string name="app_name">Kodi Launcher</string>
+    <string name="app_label_settings">Kodi Launcher Settings</string>
+
     <string name="settings_category_basic_settings">Basic Settings</string>
     <string name="settings_category_troubleshooting">Troubleshooting</string>
     
-    <string name="settings_xbmc_variant_title">XBMC variant</string>
-    <string name="settings_xbmc_variant_summary">Select your XBMC variant</string>
+    <string name="settings_xbmc_variant_title">Kodi variant</string>
+    <string name="settings_xbmc_variant_summary">Select your Kodi variant</string>
     <string name="settings_reset_default_title">Reset default launcher</string>
-    <string name="settings_app_details_title">App details</string>
-    <string name="settings_app_details_summary">Manage or uninstall XBMC Launcher via Settings</string>
     <string name="settings_android_settings_title">Android settings</string>
     <string name="settings_android_settings_summary">Launch Android\'s main settings interface</string>
     
-    <string name="xbmc_activity_default">org.xbmc.kodi/org.xbmc.kodi.Splash</string>
+    <string name="xbmc_package_default">org.xbmc.kodi</string>
+    <string name="settings_fix_permissions_summary">Fix permissions on \n/sys/class/display/mode\nin broken Amlogic ROMs to allow Kodi refresh rate switching (requires root)</string>
+    <string name="settings_fix_permissions_title">Fix permissions</string>
+    <string name="settings_clear_defaults_title">Clear Kodi Launcher Default</string>
+    <string name="settings_clear_defaults_summary">Remove Kodi Launcher from the home button.</string>
+    <string name="toast_kodi_removed_from_home_button">Kodi Launcher has been removed from the home button</string>
+    <string name="settings_open_launcher_settings_title">Home settings</string>
+    <string name="settings_open_launcher_settings_summary">Launch Android\'s home settings interface to change the default launcher</string>
 
 </resources>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="se.blunden.xbmclauncher"
-    android:versionCode="16"
-    android:versionName="2.5" >
+    package="com.gmail.prof7bit.kodilauncher"
+    android:versionCode="1000"
+    android:versionName="1.0" >
     
     <uses-feature android:name="android.hardware.touchscreen" android:required="false"/>
 
@@ -13,7 +13,16 @@
         android:theme="@style/AppTheme"
         android:screenOrientation="nosensor" >
         <activity
-            android:name="se.blunden.xbmclauncher.MainActivity"
+            android:name=".LauncherSettingsActivity"
+            android:label="@string/app_label_settings" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
             android:label="@string/app_name"
             android:clearTaskOnLaunch="true"
         	android:stateNotNeeded="true"
@@ -22,15 +31,6 @@
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.HOME" />
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        <activity
-            android:name="se.blunden.xbmclauncher.LauncherSettingsActivity"
-            android:label="@string/app_label_settings" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>

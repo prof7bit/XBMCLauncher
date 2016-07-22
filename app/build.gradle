@@ -1,19 +1,21 @@
 apply plugin: 'com.android.application'
-
 android {
-    compileSdkVersion 23
+    compileSdkVersion 22
     buildToolsVersion "23.0.2"
-
     defaultConfig {
-        applicationId "se.blunden.xbmclauncher"
+        applicationId "com.gmail.prof7bit.kodilauncher"
         minSdkVersion 14
-        targetSdkVersion 23
+        targetSdkVersion 22
     }
-
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
         }
     }
+    productFlavors {
+    }
+}
+
+dependencies {
 }
