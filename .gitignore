@@ -33,3 +33,4 @@ Thumbs.db
 *.ipr
 *.iws
 .idea/
+/.project
