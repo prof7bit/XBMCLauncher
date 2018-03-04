@@ -9,7 +9,8 @@
         <item name="xbmc_variant_name_plex">Plex</item>
         <item name="xbmc_variant_name_ouya">OUYA XBMC</item>
         <item name="xbmc_variant_name_spmc">SPMC</item>
-        <item name="xbmc_variant_name_spmc_16">SPMC (v16+)</item>
+        <item name="xbmc_variant_name_spmc_16">SPMC (v16)</item>
+        <item name="xbmc_variant_name_spmc_17">SPMC (v17)</item>
         <item name="xbmc_variant_name_wasser">Wasser XBMC</item>
         <item name="xbmc_variant_name_tvmc_new">TVMC</item>
         <item name="xbmc_variant_name_tvmc">TVMC (Old)</item>
@@ -28,6 +29,7 @@
         <item name="xbmc_package_name_ouya">tv.ouya.xbmc</item>
         <item name="xbmc_package_name_spmc">com.semperpax.spmc</item>
         <item name="xbmc_package_name_spmc_16">com.semperpax.spmc16</item>
+        <item name="xbmc_package_name_spmc_17">com.semperpax.spmc17</item>
         <item name="xbmc_package_name_wasser">org.wasser.xbmc</item>
         <item name="xbmc_package_name_tvmc_new">ag.tvaddons.tvmc</item>
         <item name="xbmc_package_name_tvmc">ag.tvaddons.xbmc</item>
