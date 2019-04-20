@@ -1,11 +1,10 @@
 apply plugin: 'com.android.application'
 android {
-    compileSdkVersion 22
-    buildToolsVersion '26.0.2'
+    compileSdkVersion 26
     defaultConfig {
         applicationId "com.gmail.prof7bit.kodilauncher"
         minSdkVersion 14
-        targetSdkVersion 22
+        targetSdkVersion 26
     }
     buildTypes {
         release {
